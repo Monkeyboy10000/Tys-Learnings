@@ -4,3 +4,6 @@ import hikari
 bot = hikari.GatewayBot(token='tokenhere')
 bot()
 ------------------------ Very VERY basic to just get running
+
+Also add ,intents=hikari.Intents.ALL) after tokenhere' if it reports "none" (thanks @FluentlyOfficial on yt)
+
