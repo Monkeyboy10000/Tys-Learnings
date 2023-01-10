@@ -1,0 +1,6 @@
+You need hikari for this part
+
+import hikari
+bot = hikari.GatewayBot(token='tokenhere')
+bot()
+------------------------ Very VERY basic to just get running
