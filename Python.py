@@ -25,3 +25,17 @@ print(dog1 in dogs)
 dogs.append('dog3')
 #adds *thing* to end of the list
 
+dogs.insert(4, 'dog5')
+#same as .append but you can choose where
+
+cats [] #-- we can also make empty lists?!!??! (and then add stuff with append/insert!?!?!!)
+
+#doing -1 for the number makes it always the newest i guess?
+
+dogs.sort #sort into alphabetical (woah i spelled alphabetical right i think)
+
+dogs.sort(reverse=True) #take a guess at what this does.
+
+for dog in sorted(dogs):
+    print(dog.title())
+#this sorts the list but doesnt permantly change the main list
