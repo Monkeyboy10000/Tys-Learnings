@@ -39,3 +39,5 @@ dogs.sort(reverse=True) #take a guess at what this does.
 for dog in sorted(dogs):
     print(dog.title())
 #this sorts the list but doesnt permantly change the main list
+
+dogs.reverse() #you can also do this to reverse
