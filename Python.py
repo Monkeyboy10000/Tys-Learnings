@@ -48,3 +48,7 @@ numbers.sort(reverse=True) #again take a guess man
 print(sorted(numbers)) #same as other one put sorts while preserving og list
 
 nod = len(dogs) #(number of dog) the amount of users in list
+
+print(str(nod)) #len just returns an integer, which we can't print so we use str to turn it into a string and then print
+
+
