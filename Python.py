@@ -51,4 +51,9 @@ nod = len(dogs) #(number of dog) the amount of users in list
 
 print(str(nod)) #len just returns an integer, which we can't print so we use str to turn it into a string and then print
 
+del dogs (0) #will remove said number/value from list
+
+dogs.remove('dog1') #will remove item by value
+
+
 
