@@ -53,7 +53,14 @@ print(str(nod)) #len just returns an integer, which we can't print so we use str
 
 del dogs (0) #will remove said number/value from list
 
-dogs.remove('dog1') #will remove item by value
+dogs.remove('dog1') #will remove item by value (will only remove first in list if multple values)
+
+lastdog = dogs.pop() #grabs item and removes it from list (if () empty grabs last item)
+
+input = input(
+#------------------- FUNCTIONS (stfu i know this is badly orginazed but whatever)
+
+
 
 
 
