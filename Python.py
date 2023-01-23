@@ -59,6 +59,40 @@ lastdog = dogs.pop() #grabs item and removes it from list (if () empty grabs las
 
 input = input("enter something here") #again take a guess man 
 #------------------- FUNCTIONS (stfu i know this is badly orginazed but whatever)
+#i feel like you should remember this but idc
+def (*thing*)(argument) #to create a function
+
+#probably bad example i just made (does work tho, do remeber to put () after title cause apparently that can mess stuff up)
+def dog(names, message):
+  print(message)
+  for name in names:
+    print(name.title())
+    
+names = ['Charlie', 'Max', 'Hailey']
+names.sort()
+dog(names, "Dog!!")
+
+#just took this from (http://introtopython.org/introducing_functions.html) lmao
+
+
+def get_number_word(number):
+    # Takes in a numerical value, and returns
+    #  the word corresponding to that number.
+    if number == 0:
+        return 'zero'
+    elif number == 1:
+        return 'one'
+    elif number == 2:
+        return 'two'
+    elif number == 3:
+        return 'three'
+    else:
+        return "I'm sorry, I don't know that number."
+    
+# Let's try out our function.
+for current_number in range(0,6):
+    number_word = get_number_word(current_number)
+    print(current_number, number_word)
 
 
 
