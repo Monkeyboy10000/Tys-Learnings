@@ -41,3 +41,10 @@ for dog in sorted(dogs):
 #this sorts the list but doesnt permantly change the main list
 
 dogs.reverse() #you can also do this to reverse
+
+numbers.sort() #puts numbers in numerical order
+numbers.sort(reverse=True) #again take a guess man
+
+print(sorted(numbers)) #same as other one put sorts while preserving og list
+
+nod = len(dogs) #(number of dog) the amount of users in list
