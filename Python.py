@@ -57,7 +57,7 @@ dogs.remove('dog1') #will remove item by value (will only remove first in list i
 
 lastdog = dogs.pop() #grabs item and removes it from list (if () empty grabs last item)
 
-input = input(
+input = input("enter something here") #again take a guess man 
 #------------------- FUNCTIONS (stfu i know this is badly orginazed but whatever)
 
 
