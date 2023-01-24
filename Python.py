@@ -22,7 +22,7 @@ print(dogs.index('dog1'))
 print(dog1 in dogs)
 #true or false if item is in list (this would be true)
 
-dogs.append('dog3')
+dogs.append('dog4')
 #adds *thing* to end of the list
 
 dogs.insert(4, 'dog5')
@@ -58,6 +58,36 @@ dogs.remove('dog1') #will remove item by value (will only remove first in list i
 lastdog = dogs.pop() #grabs item and removes it from list (if () empty grabs last item)
 
 input = input("enter something here") #again take a guess man 
+
+threedogs = dogs[0:3] #grabs everything in a list (you can leave first number empty to grab everything up to the other number, leaves og list uneffected
+
+middledog = dogs[1:3] #another example cause why not
+
+enddog = dogs[2:] #another another example becuase im sure you forgot this super simple bit
+
+alldog = dogs[:] #dog, basicly a copy which you can delete stuff in idk
+
+number = range(1,11) #range is just an easier number list (put something like ,2 after 11 to go up in twos.)
+
+numbers = list(range(1,11)) #makes it into a list cause it wasnt in one before i guess
+
+for number in numbers[-10:]:
+    print(number) #i forgot about this before i think and i dont feel like checking
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #------------------- FUNCTIONS (stfu i know this is badly orginazed but whatever)
 #i feel like you should remember this but idc
 def (*thing*)(argument) #to create a function
