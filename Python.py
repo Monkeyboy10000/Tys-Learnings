@@ -72,14 +72,24 @@ number = range(1,11) #range is just an easier number list (put something like ,2
 numbers = list(range(1,11)) #makes it into a list cause it wasnt in one before i guess
 
 for number in numbers[-10:]:
-    print(number) #i forgot about this before i think and i dont feel like checking
+    print(number) 
+#i forgot about this before i think and i dont feel like checking
     
 print(str(len(numbers)) #len = lenght (i think idk) and str turns (integers?) into strings that can be printed
       
 small = min(numbers)
 big = max(numbers)
 total = sum(numbers)
+      
+#so didnt do anything for 2 months lol nice
+      
+import sys
+#figure it out yourself, idc
+if sys.platform.startswith('linux'):
+      print("yippe")
 
+      
+      
       
 
 
